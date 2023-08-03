@@ -1,0 +1,54 @@
+/* ================ ACHIVEMENTS ================= */
+.about-achivement {
+    margin-top: 3rem;
+}
+
+.about-achivements-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+
+.about-achivements-right>p {
+    margin: 1.6rem 0 2.5rem;
+}
+
+.achivements-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.achivements-card {
+    background: var(--color-bg1);
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.achivements-card:hover {
+    background: var(--color-bg2);
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.achivement-icon {
+    background: var(--color-danger);
+    padding: 0.6rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.achivements-card:nth-child(2) .achivement-icon {
+    background: var(--color-success);
+}
+
+.achivements-card:nth-child(3) .achivement-icon {
+    background: var(--color-primary);
+}
+
+.achivements-card p {
+    margin-top: 1rem;
+}

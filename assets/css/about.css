@@ -118,3 +118,48 @@
 }
 
 /* =================== MEDIA QUEIRIES (TABLETS) =========================== */
+@media screen and (max-width: 1024px) {
+    .about-achivement {
+        margin-top: 2rem;
+    }
+
+    .about-achivements-container {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .about-achivements-left {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .team-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .team-member {
+        padding: 1rem;
+    }
+}
+
+/* =================== MEDIA QUEIRIES (MOBILES) =========================== */
+@media screen and (max-width: 600px) {
+    .achivements-cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+
+    .team-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+
+    .team-member {
+        padding: 0;
+    }
+
+    .team-member p {
+        margin-bottom: 1.5rem;
+    }
+}
